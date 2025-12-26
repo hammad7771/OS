@@ -1,3 +1,20 @@
+// #ifndef MEMORYMANAGER_H
+// #define MEMORYMANAGER_H
+
+// class MemoryManager {
+// private:
+//     int totalMemory;
+//     int usedMemory;
+
+// public:
+//     MemoryManager(int size);
+//     bool allocate(int size);
+//     void deallocate(int size);
+// };
+
+// #endif
+
+
 #ifndef MEMORYMANAGER_H
 #define MEMORYMANAGER_H
 
@@ -10,6 +27,7 @@ public:
     MemoryManager(int size);
     bool allocate(int size);
     void deallocate(int size);
+    void display();
 };
 
 #endif
